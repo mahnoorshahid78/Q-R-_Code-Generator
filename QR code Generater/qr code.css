@@ -1,0 +1,57 @@
+body{
+    background: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+     
+}
+.contain{
+    width: 400px;
+    height: 450px;
+    background-color: rgb(250, 173, 231);
+    margin-left: 40%;
+    margin-top: 10%;
+    border:2px solid rgb(177, 3, 139);
+    border-radius: 10px;
+}
+input#text{
+    padding-top: 20px;
+    margin-top: 20%;
+    width: 80%;
+    margin-left: 40px;
+    background-color: rgb(231, 160, 204);
+    border: 2px solid rgb(158, 16, 158);
+    
+}
+#btn{
+    align-items: center;
+    background-color: rgb(255, 0, 191);
+    color: black;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 40%;
+    padding: 10px;
+    margin-top: 20px;
+    border: 2px solid rgb(250, 5, 250);
+    
+}
+div #IMGBOX{
+    margin-left: 30%;
+    margin-top: 20px;
+
+}
+.root{
+    border: solid 10px red;
+}
+@keyframes shake {
+    0% {transform: translatex(-2px);}
+25% {transform: translatex(0px);}
+ 50%{transform: translatey(-2px);}
+    75% {transform: translatex(0px);}
+    100% {transform: translatex(0px);}
+    
+}
